@@ -11,7 +11,7 @@ export default function Exemplo01(props) {
                 Bem vindo, {props.nome}!
             </p>
             <p>
-                Idade para dirigir: { idadeIdeal }
+                Idade ideal para dirigir: { idadeIdeal }
             </p>
             <VerificaIdade nome={ props.nome } idade={ props.idade } />
         </div>

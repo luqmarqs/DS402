@@ -13,7 +13,7 @@ function App() {
       <h1>Exemplos com React</h1>
       <div className="cards">
       <Card titulo="Exemplo01">
-        <Exemplo01 nome="Lucas"/>
+        <Exemplo01 nome="Lucas" idade={28}/>
       </Card>
       <br></br>
       <Card titulo="Exercício">
