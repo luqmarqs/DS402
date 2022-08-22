@@ -2,15 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Exemplo01 from './components/Exemplo01';
-import Exercicio from './components/Exercicio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Exemplo01 nome="Lucas"/>
-    <Exercicio nome="Lucas" nota={7} />
   </React.StrictMode>
 );
 
