@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API/bin/Debug/net6.0/appsettings.Development.json
 /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API/bin/Debug/net6.0/appsettings.json
 /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API/bin/Debug/net6.0/ProjetoEscola_API
@@ -25,3 +26,32 @@
 /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API/obj/Debug/net6.0/ProjetoEscola_API.pdb
 /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API/obj/Debug/net6.0/ProjetoEscola_API.genruntimeconfig.cache
 /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API/obj/Debug/net6.0/ref/ProjetoEscola_API.dll
+=======
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\appsettings.json
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\ProjetoEscola_API.exe
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\ProjetoEscola_API.deps.json
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\ProjetoEscola_API.runtimeconfig.json
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\ProjetoEscola_API.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\ref\ProjetoEscola_API.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\ProjetoEscola_API.pdb
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.csproj.AssemblyReference.cache
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.AssemblyInfoInputs.cache
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.AssemblyInfo.cs
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\scopedcss\bundle\ProjetoEscola_API.styles.css
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.csproj.CopyComplete
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ref\ProjetoEscola_API.dll
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.pdb
+C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\obj\Debug\net6.0\ProjetoEscola_API.genruntimeconfig.cache
+>>>>>>> f7ff503e1f059cdb85e9c3d2935c7c42b559fa2f

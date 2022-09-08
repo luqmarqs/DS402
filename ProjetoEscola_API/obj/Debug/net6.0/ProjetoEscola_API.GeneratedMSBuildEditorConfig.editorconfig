@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoEscola_API
 build_property.RootNamespace = ProjetoEscola_API
+<<<<<<< HEAD
 build_property.ProjectDir = /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/u21104/Documents/GitHub/DS402/ProjetoEscola_API
+=======
+build_property.ProjectDir = C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lucas Marques\Documents\GitHub\DS402\ProjetoEscola_API
+>>>>>>> f7ff503e1f059cdb85e9c3d2935c7c42b559fa2f
 build_property._RazorSourceGeneratorDebug = 
