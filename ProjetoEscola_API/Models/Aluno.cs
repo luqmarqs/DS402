@@ -6,5 +6,11 @@ namespace ProjetoEscola_API.Models
         public string? Ra { get; set; }
         public string? Nome { get; set; }
         public int CodCurso { get; set; }
+        
+        public override string ToString()
+        {
+            return (Id + ", " + Ra + ", " + Nome);
+        }
     }
+
 }

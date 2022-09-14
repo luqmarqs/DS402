@@ -47,21 +47,70 @@ namespace ProjetoEscola_API.Controllers
         }
 
         [HttpPost]
-        public ActionResult post(Aluno model)
+        public async Task<ActionResult> post(Aluno model)
         {
-            return Ok();
+            try
+            {
+                _context.Aluno.Add(model);
+                if (await _context.SaveChangesAsync() == 1)
+                {
+                    //return Ok();
+                    return Created($"/api/aluno/{model.Ra}", model);
+                }
+            }
+            catch
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no acesso ao banco de dados.");
+            }
+            // retorna BadRequest se não conseguiu incluir
+            return BadRequest();
         }
 
-        [HttpPut("{AlunoRA}")]
-        public ActionResult put(string AlunoRA)
+
+
+        [HttpPut("{AlunoId}")]
+        public async Task<ActionResult> put(int AlunoId, Aluno dadosAlunoAlt)
         {
-            return Ok();
+            try
+            {
+                //verifica se existe aluno a ser alterado
+                var result = await _context.Aluno.FindAsync(AlunoId);
+                if(AlunoId != result.Id)
+                {
+                    return BadRequest();
+                }
+                result.Ra = dadosAlunoAlt.Ra;
+                result.Nome = dadosAlunoAlt.Nome;
+                result.CodCurso = dadosAlunoAlt.CodCurso;
+                await _context.SaveChangesAsync();
+                return Created($"/api/aluno/{dadosAlunoAlt.Ra}", dadosAlunoAlt);
+            }
+            catch
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no acesso ao banco de dados.");
+            }
         }
 
-        [HttpDelete("{AlunoRA}")]
-        public ActionResult delete (string AlunoRA)
+        [HttpDelete("{AlunoId}")]
+        public async Task<ActionResult> delete (int AlunoId)
         {
-            return Ok();
+            try
+            {
+                //verifica se existe aluno a sex excluído
+                var aluno = await _context.Aluno.FindAsync(AlunoId);
+                if (aluno == null)
+                {
+                    //método do EF
+                    return NotFound();
+                }
+                _context.Remove(aluno);
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
+            catch
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no acesso ao banco de dados.");
+            }
         }
     }
 }
